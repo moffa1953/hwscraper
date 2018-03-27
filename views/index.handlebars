@@ -1,0 +1,28 @@
+{{>header}}
+
+
+ <div id="wrapper">
+        <div class="container">
+            <h1>{{title}}</h1>
+            <div class="content">
+                     
+            <!-- Thumbnail section -->
+                <div class="row">
+                    {{#each Items}}
+                    <div class="col-xs-3" style='height:300px'>
+                            <div class = 'hb', style='background-color:blue; color:white'><center>{{caption}}</center></div>
+                            <div class="thumbnail">
+                                    <img src="{{image}}" alt='{{caption}}' key='{{articleID}}' searchType='{{name}}'>
+                                    <div class="caption" style='text-align: center'>{{title}}</div>
+                                    <div class="butlist"></div> 
+                    
+                            </div>
+                    </div> 
+                    {{/each}}                 
+                </div><!-- End row -->
+                
+            </div>
+        </div>
+       
+    </div>
+

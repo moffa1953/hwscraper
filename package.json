@@ -1,0 +1,31 @@
+{
+  "name": "hwscraper",
+  "version": "1.0.0",
+  "description": "Homework Scraper with Mongoose and Cheerio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moffa1953/hwscraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moffa1953/hwscraper/issues"
+  },
+  "homepage": "https://github.com/moffa1953/hwscraper#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-validator": "^5.0.3",
+    "mongoose": "^4.12.1",
+    "request": "^2.85.0"
+  }
+}
